@@ -15,5 +15,4 @@ cabal configure; cabal build; cabal install
 ```
 
 PUT THAT RESULTiNG BiNARY iN YOUR PATH
-
 THiS README LOViNGLY GENERATED WiTH `RiFF-RAFF`
