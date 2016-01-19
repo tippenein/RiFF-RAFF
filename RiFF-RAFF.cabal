@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                RiFF-RAFF
-version:             0.1.0.0
+version:             0.1.1.0
 synopsis:            COMMANDLiNE PiPE TO CONVERT TEXT TO RiFF RAFF SPEAK
 description:         NEON iCON
 license-file:        LICENSE
@@ -11,10 +11,10 @@ maintainer:          brady.ouren@gmail.com
 build-type:          Simple
 cabal-version:       >=1.10
 
-executable RiFF-RAFF
+executable riffraff
   main-is:             Main.hs
   -- other-modules:
   -- other-extensions:
-  build-depends:       base >=4.7 && <4.8
+  build-depends:       base ==4.*
   -- hs-source-dirs:
   default-language:    Haskell2010
